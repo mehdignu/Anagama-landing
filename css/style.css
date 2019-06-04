@@ -21,11 +21,65 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #262626;
+    padding: 30px;
 }
 
+
+
 .header {
+    position: relative;
     height: 95vh;
-    background-image: linear-gradient(#F8F8F8, #F8F8F8);
     background-size: cover;
     background-position: center;
+}
+
+#rectangle {
+    position: relative;
+    height: 60%;
+    background: #F8F8F8;
+    width: 85%;
+    margin: 0 auto;
+    top: 35px;
+}
+
+.logo-box{
+    position: absolute;
+    left:0;
+    right:0;
+    top: -8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    height: 68.59px;
+    width: 68.76px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text-box {
+    position: absolute;
+    top: 10%;
+    left: -3.5%;
+}
+
+.heading-primary {
+    color: #262626;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 80px;
+    width: 680px;
+    height: 284px;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 32px;
+    font-weight: 400;
+    width: 770px;
+    height: 114px;
 }
